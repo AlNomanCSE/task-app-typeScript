@@ -13,8 +13,8 @@
 
 <div align="center">
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)](https://github.com/AlNomanCSE/task-app-typeScript)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)](https://github.com/AlNomanCSE/task-app-typeScript)
+[![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)](https://github.com/AlNomanCSE/task-app-typeScript/commits/main/)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)](https://github.com/AlNomanCSE/task-app-typeScript/pulls)
 
 </div>
 <h2 id="technologies">💻 Technologies</h2>
