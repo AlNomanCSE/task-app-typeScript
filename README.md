@@ -5,18 +5,10 @@
 <!-- <img src="./public/1.JPG" alt="Logo" width="300" height="300"> -->
 
 </div>
-<div align="center">
+
 
 ![Awesome ReadME](public/2.JPG)
 
-</div>
-
-<div align="center">
-
-[![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)](https://github.com/AlNomanCSE/task-app-typeScript/commits/main/)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)](https://github.com/AlNomanCSE/task-app-typeScript/pulls)
-
-</div>
 <h2 id="technologies">💻 Technologies</h2>
 
 - react
