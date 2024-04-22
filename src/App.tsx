@@ -1,27 +1,31 @@
 import { Button } from "./components/ui/button";
-import { CounterProvider, useCount } from "./contexts/Counter";
+import { DataProvider, useData } from "./contexts/DataContext";
 export default function App() {
   return (
-    <CounterProvider>
-      <ContextValue />
-    </CounterProvider>
+    <DataProvider>
+      <Main />
+    </DataProvider>
   );
 }
 
-function ContextValue() {
-  const { count, setCount } = useCount();
+function Main() {
+  const { data, setData } = useData();
   return (
-    <div className="flex justify-center items-center flex-col w-screen h-screen bg-black text-slate-400">
-      <h1 className="text-3xl font-bold underline underline-offset-8 ">
-        React & TypeScript
-      </h1>
-      <h2 className="p-2 text-xl">
-        <span>Context -- </span>
-        {count}
-      </h2>
-      <Button onClick={() => setCount((prevous) => prevous + 1)}>
-        Increase
+    <div className="flex justify-center items-center flex-col w-screen h-screen">
+      {data.map((detum, index) => (
+        <div key={index}>
+          <h2>{detum.tile}</h2>
+          <p>{detum.description}</p>
+        </div>
+      ))}
+
+      <Button
+        onClick={() =>
+          setData([...data, { tile: "new", description: "Html css" }])
+        }
+      >
+        ADD
       </Button>
     </div>
   );
-} 
+}
