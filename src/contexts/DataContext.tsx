@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-type DataItemType = { tile: string; description: string };
+type DataItemType = { title: string; description: string };
 
 type DataContextType = {
   data: DataItemType[];
